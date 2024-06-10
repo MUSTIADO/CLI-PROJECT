@@ -1,0 +1,189 @@
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO users (username, password, role) VALUES (?, ?, ?)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00067s] ('myusername', '89e01536ac207279409d4de1e5253e01f4a1769e696db0d6062ca9b8f56767c8', 'admin')
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+INFO:root:User 'mustafa' registered as admin.
+INFO:root:User 'mustafa' authenticated.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product '1' updated.
+INFO:root:Product '1' deleted.
+INFO:root:Listed all products.
+ERROR:root:Product not available or insufficient stock.
+INFO:root:Viewed cart for user '1'.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Listed all products.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product 'Smartphone' added with price 799.99 and stock 25.
+INFO:root:Product 'Tablet' added with price 499.99 and stock 15.
+INFO:root:Product 'Monitor' added with price 199.99 and stock 20.
+INFO:root:Product 'Keyboard' added with price 49.99 and stock 50.
+INFO:root:Product 'Mouse' added with price 29.99 and stock 40.
+INFO:root:Product 'Printer' added with price 149.99 and stock 12.
+INFO:root:Product 'Headphones' added with price 89.99 and stock 30.
+INFO:root:Product 'External Hard Drive' added with price 129.99 and stock 18.
+INFO:root:Product 'Webcam' added with price 59.99 and stock 22.
+INFO:root:Listed all products.
+INFO:root:Added 2 of product '1' to cart for user '1'.
+INFO:root:Updated cart for user '1', product '1' to quantity 3.
+INFO:root:Viewed cart for user '1'.
+INFO:root:Calculated total for cart of user '1'.
+INFO:root:Order placed for user '1'.
+INFO:root:Checked stock levels.
+INFO:root:Restocked product '1' by 10.
+INFO:root:Checked stock levels.
+INFO:root:Checked stock levels.
+INFO:root:Listed all products.
+INFO:root:Listed all products.
+INFO:root:Checked stock levels.
+INFO:root:Listed all products.
+INFO:root:Listed all products.
+INFO:root:Listed all products.
+INFO:root:User 'musti' registered as admin.
+INFO:root:User 'musti' authenticated.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product '1' updated.
+INFO:root:Product '1' deleted.
+INFO:root:Listed all products.
+ERROR:root:Product not available or insufficient stock.
+ERROR:root:Product not in cart.
+INFO:root:Viewed cart for user '1'.
+INFO:root:Calculated total for cart of user '1'.
+ERROR:root:Cart is empty.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product 'Smartphone' added with price 799.99 and stock 25.
+INFO:root:Product 'Tablet' added with price 499.99 and stock 15.
+INFO:root:Product 'Monitor' added with price 199.99 and stock 20.
+INFO:root:Product 'Keyboard' added with price 49.99 and stock 50.
+INFO:root:Product 'Mouse' added with price 29.99 and stock 40.
+INFO:root:Product 'Printer' added with price 149.99 and stock 12.
+INFO:root:Product 'Headphones' added with price 89.99 and stock 30.
+INFO:root:Product 'External Hard Drive' added with price 129.99 and stock 18.
+INFO:root:Product 'Webcam' added with price 59.99 and stock 22.
+INFO:root:Listed all products.
+ERROR:root:Product not available or insufficient stock.
+ERROR:root:Product not available or insufficient stock.
+INFO:root:Added 2 of product '10' to cart for user '3'.
+INFO:root:Viewed cart for user '3'.
+INFO:root:Added 2 of product '10' to cart for user '3'.
+INFO:root:Calculated total for cart of user '3'.
+INFO:root:Order placed for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Checked stock levels.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '2'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+ERROR:root:Order not found or cannot be cancelled.
+ERROR:root:Order not found or cannot be cancelled.
+ERROR:root:Order not found or cannot be cancelled.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Viewed order history for user '3'.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product 'Smartphone' added with price 799.99 and stock 25.
+INFO:root:Product 'Tablet' added with price 499.99 and stock 15.
+INFO:root:Product 'Monitor' added with price 199.99 and stock 20.
+INFO:root:Product 'Keyboard' added with price 49.99 and stock 50.
+INFO:root:Product 'Mouse' added with price 29.99 and stock 40.
+INFO:root:Product 'Printer' added with price 149.99 and stock 12.
+INFO:root:Listed all products.
+ERROR:root:Product '1' not found.
+INFO:root:Product '2' deleted.
+ERROR:root:Product not available or insufficient stock.
+ERROR:root:Product not available or insufficient stock.
+ERROR:root:Product not available or insufficient stock.
+ERROR:root:Product not available or insufficient stock.
+INFO:root:Viewed cart for user '2'.
+ERROR:root:Product not available or insufficient stock.
+INFO:root:Added 5 of product '4' to cart for user '3'.
+INFO:root:Calculated total for cart of user '3'.
+INFO:root:Order placed for user '3'.
+INFO:root:Viewed order history for user '3'.
+ERROR:root:Order not found or cannot be cancelled.
+ERROR:root:Order not found or cannot be cancelled.
+INFO:root:User 'musti' authenticated.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product 'Smartphone' added with price 799.99 and stock 25.
+INFO:root:Product 'Tablet' added with price 499.99 and stock 15.
+INFO:root:Product 'Monitor' added with price 199.99 and stock 20.
+INFO:root:Product 'Keyboard' added with price 49.99 and stock 50.
+INFO:root:Product 'Mouse' added with price 29.99 and stock 40.
+INFO:root:Product 'Printer' added with price 149.99 and stock 12.
+INFO:root:Product 'Headphones' added with price 89.99 and stock 30.
+INFO:root:Product 'External Hard Drive' added with price 129.99 and stock 18.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product 'Smartphone' added with price 799.99 and stock 25.
+INFO:root:Product 'Tablet' added with price 499.99 and stock 15.
+INFO:root:Product 'Monitor' added with price 199.99 and stock 20.
+INFO:root:Product 'Keyboard' added with price 49.99 and stock 50.
+INFO:root:Product 'Mouse' added with price 29.99 and stock 40.
+INFO:root:Product 'Printer' added with price 149.99 and stock 12.
+INFO:root:Product 'Headphones' added with price 89.99 and stock 30.
+INFO:root:Product 'External Hard Drive' added with price 129.99 and stock 18.
+ERROR:root:Product '1' not found.
+INFO:root:Product '4' updated.
+INFO:root:Product '6' deleted.
+INFO:root:Listed all products.
+ERROR:root:Product not available or insufficient stock.
+ERROR:root:Product not available or insufficient stock.
+INFO:root:Added 7 of product '5' to cart for user '4'.
+INFO:root:Updated cart for user '4', product '5' to quantity 8.
+INFO:root:Updated cart for user '4', product '5' to quantity 8.
+INFO:root:Viewed cart for user '4'.
+INFO:root:Viewed cart for user '5'.
+INFO:root:Viewed cart for user '8'.
+INFO:root:Viewed cart for user '4'.
+INFO:root:Calculated total for cart of user '4'.
+INFO:root:Order placed for user '4'.
+INFO:root:Viewed order history for user '4'.
+ERROR:root:Order not found or cannot be cancelled.
+ERROR:root:Order not found or cannot be cancelled.
+INFO:root:Checked stock levels.
+INFO:root:Restocked product '15' by 8.
+INFO:root:Checked stock levels.
+INFO:root:Calculated total for cart of user '4'.
+INFO:root:Calculated total for cart of user '5'.
+INFO:root:Listed all products.
+INFO:root:Calculated total for cart of user '4'.
+INFO:root:User 'wilson' registered as admin.
+INFO:root:User 'wilson' authenticated.
+INFO:root:Product 'Laptop' added with price 999.99 and stock 10.
+INFO:root:Product 'Smartphone' added with price 799.99 and stock 25.
+INFO:root:Product 'Tablet' added with price 499.99 and stock 15.
+INFO:root:Product 'Monitor' added with price 199.99 and stock 20.
+INFO:root:Product 'Keyboard' added with price 49.99 and stock 50.
+INFO:root:Product 'Mouse' added with price 29.99 and stock 40.
+INFO:root:Product 'Printer' added with price 149.99 and stock 12.
+ERROR:root:Product '1' not found.
+ERROR:root:Product '1' not found.
+ERROR:root:Product '1' not found.
+INFO:root:Listed all products.
+INFO:root:Product '3' updated.
+INFO:root:Listed all products.
+INFO:root:Product '3' deleted.
+INFO:root:Listed all products.
+ERROR:root:Product not available or insufficient stock.
+INFO:root:Added 8 of product '5' to cart for user '4'.
+INFO:root:Viewed cart for user '4'.
+INFO:root:Added 10 of product '5' to cart for user '4'.
+INFO:root:Viewed cart for user '4'.
+INFO:root:Calculated total for cart of user '4'.
+INFO:root:Order placed for user '4'.
+INFO:root:Viewed order history for user '4'.
+ERROR:root:Order not found or cannot be cancelled.
+INFO:root:Checked stock levels.
+INFO:root:Restocked product '4' by 10.
+INFO:root:Checked stock levels.
+INFO:root:Checked stock levels.
+ERROR:root:Product not found.
+INFO:root:Restocked product '5' by 10.
+INFO:root:Checked stock levels.
+INFO:root:Restocked product '5' by 100.
+INFO:root:Checked stock levels.
+INFO:root:User 'annah' registered as admin.
